@@ -3,7 +3,9 @@ import React from 'react'
 export const EventosComponentes = () => {
 
     const hasDadoClick = (e) =>{
-        alert("Has dado click al
+        alert("Has dado click al boton")
+    }
+
   return (
     <div>
         <h1>Eventos React</h1>
@@ -14,5 +16,3 @@ export const EventosComponentes = () => {
     </div>
   )
 }
- boton")
-    }
