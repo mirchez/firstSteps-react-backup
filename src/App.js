@@ -13,3 +13,25 @@ function App() {
     estado : "Bueno",
     alergias : "Ninguna"
   };
+
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+              {/*cargar primer componente*/}
+          <MiComponente />
+          <SegundoComponente/>
+          <TercerComponente
+          nombre="Miguel"
+          apellido="Miranda"
+          ficha= {ficha_med}
+          />
+          <EventosComponentes/>
+      </header>
+
+
+    </div>
+  );
+}
+
+export default App;
